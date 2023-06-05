@@ -177,3 +177,35 @@ path.two {
       transform: translateY(0px);
   }
 }
+
+.name {
+color: white;
+  text-shadow:
+    -1px -1px 0 #6225E6,
+    2px -1px 0 #6225E6,
+    -1px 2px 0 #6225E6,
+      2px 2px 0 #6225E6;
+}
+
+.name-light {
+  color: white;
+    text-shadow:
+      -0.5px -0.5px 0 #6225E6,
+      0.5px -0.5px 0 #6225E6,
+      -0.5px 0.5px 0 #6225E6,
+        0.5px 0.5px 0 #6225E6;
+  }
+
+.icon {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  background-color: black;
+}
+
+.bg-white:hover svg {
+  fill: #FFFFFF;
+  transform: scale(1.2); /* Increase the scale to make the icon larger */
+  transition: fill 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
