@@ -1,0 +1,121 @@
+<div class=" flex flex-grow w-screen h-screen bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
+  <div class="h-full fixed w-1/6 space-y-56 bg-black">
+    <div class="h-1/2 space-y-28">
+      <div class="pt-16 pl-5 text-xl">
+        <p class="font-bold text-[30px]  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent">Pooh.</p>
+      </div>
+      <div class="text-white">
+        <ul>
+          <a href="<%= root_path %>">
+            <p class="text-[15px] p-2 pl-10 bg-white hover:bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 bg-clip-text text-transparent ">HOME</p>
+          </a>
+          <a href="<%= about_path %>">
+            <p class="text-[15px] p-2 pl-10 bg-white hover:bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 bg-clip-text text-transparent ">ABOUT</p>
+          </a>
+          <p class="text-[15px] p-2 pl-10 bg-white hover:bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 bg-clip-text text-transparent">WORKS</p>
+          <p class="text-[15px] p-2 pl-10 bg-white hover:bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 bg-clip-text text-transparent">CONTACT</p>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-20 ml-8 flex flex-col gap-3">
+      <div class="bg-white w-[40px] h-[40px] flex justify-center items-center rounded-full">
+        <a href="https://www.instagram.com">
+          <svg fill="#000000" width="32px" height="48px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"></path><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"></path></g></svg>
+        </a>
+      </div>
+      <div class="bg-white w-[40px] h-[40px] flex justify-center items-center rounded-full">
+        <a href="https://github.com/Subsystem24">
+          <svg width="28px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9992 5.95846C21.0087 6.565 20.9333 7.32649 20.8658 7.8807C20.8395 8.09686 20.8037 8.27676 20.7653 8.42453C21.6227 10.01 22 11.9174 22 14C22 16.4684 20.8127 18.501 18.9638 19.8871C17.1319 21.2605 14.6606 22 12 22C9.33939 22 6.86809 21.2605 5.0362 19.8871C3.18727 18.501 2 16.4684 2 14C2 11.9174 2.37732 10.01 3.23472 8.42452C3.19631 8.27676 3.16055 8.09685 3.13422 7.8807C3.06673 7.32649 2.99133 6.565 3.00081 5.95846C3.01149 5.27506 3.10082 4.5917 3.19988 3.91379C3.24569 3.60028 3.31843 3.30547 3.65883 3.11917C4.00655 2.92886 4.37274 2.99981 4.73398 3.1021C5.95247 3.44713 7.09487 3.93108 8.16803 4.51287C9.2995 4.17287 10.5783 4 12 4C13.4217 4 14.7005 4.17287 15.832 4.51287C16.9051 3.93108 18.0475 3.44713 19.266 3.1021C19.6273 2.99981 19.9935 2.92886 20.3412 3.11917C20.6816 3.30547 20.7543 3.60028 20.8001 3.91379C20.8992 4.5917 20.9885 5.27506 20.9992 5.95846ZM20 14C20 12.3128 19.6122 10 17.5 10C16.5478 10 15.6474 10.2502 14.7474 10.5004C13.8482 10.7502 12.9495 11 12 11C11.0505 11 10.1518 10.7502 9.25263 10.5004C8.35261 10.2502 7.45216 10 6.5 10C4.39379 10 4 12.3197 4 14C4 15.7636 4.82745 17.231 6.23588 18.2869C7.66135 19.3556 9.69005 20 12 20C14.3099 20 16.3386 19.3555 17.7641 18.2869C19.1726 17.231 20 15.7636 20 14ZM10 14.5C10 15.8807 9.32843 17 8.5 17C7.67157 17 7 15.8807 7 14.5C7 13.1193 7.67157 12 8.5 12C9.32843 12 10 13.1193 10 14.5ZM15.5 17C16.3284 17 17 15.8807 17 14.5C17 13.1193 16.3284 12 15.5 12C14.6716 12 14 13.1193 14 14.5C14 15.8807 14.6716 17 15.5 17Z" fill="#000000"></path> </g></svg>
+        </a>
+      </div>
+      <div class="bg-white w-[40px] h-[40px] flex justify-center items-center rounded-full">
+        <a href="https://www.linkedin.com/in/phuvit-jaruratkit-b4b13423b/">
+          <svg fill="#000000" height="40px" width="24px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M-143,145v512h512V145H-143z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7 c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6 c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1 c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z"></path> </g></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class=" w-[700px] ">
+    <div class="h-full text-white ">
+      <div class="ml-72 pt-20">
+        <p class="text-black font-light text-white">Nice to meet you!</p>
+        <p class="text-3xl text-black font-bold text-white">WELCOME TO...</p>
+        <p class="text-7xl bg-gradient-to-r from-fuchsia-500 italic via-red-600 to-orange-400 bg-clip-text text-transparent font-extrabold">MYSELF!</p>
+        <div class="flex flex-col w-[400px] justify-center item-center m-10 ml-0">
+          <img class="w-72 h-72" src="https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text.png" alt="profilePic">
+          <p class="text-4xl mt-5 font-bold bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 italic bg-clip-text text-transparent font-bold">Phuvit Jaruratkit</p>
+          <p class="text-black text-base text-white">Web & Software junior developer based in Tokyo</p>
+          <!-- designed by me... enjoy! -->
+          <div class="wrapper mt-3">
+            <a class="cta" href="#">
+              <span>Download CV</span>
+              <span>
+                <svg width="28px" height="16px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                  <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                    <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                    <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                  </g>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact mt-64 ml-[35px] w-[450px]">
+    <div class="flex">
+      <div>
+        <div class="mr-2 flex">
+          <svg width="16px" height="16px" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path d="M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M8.20049 15.799C1.3025 8.90022 2.28338 5.74115 3.01055 4.72316C3.10396 4.55862 5.40647 1.11188 7.87459 3.13407C14.0008 8.17945 6.5 8 11.3894 12.6113C16.2788 17.2226 15.8214 9.99995 20.8659 16.1249C22.8882 18.594 19.4413 20.8964 19.2778 20.9888C18.2598 21.717 15.0995 22.6978 8.20049 15.799Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+          </svg>
+          <p class="italic ml-2 text-sm text-white">+80 7534 7175</p>
+        </div>
+        <div class="mt-4 mr-2 flex">
+          <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="16px" height="16px" viewBox="0 0 31.781 31.906">
+            <path d="M28.802,31.908 L2.981,31.908 C1.338,31.908 0.001,30.566 0.001,28.915 L0.001,13.951 C0.001,13.938 0.008,13.928 0.008,13.916 C0.009,13.880 0.021,13.846 0.029,13.811 C0.040,13.731 0.054,13.655 0.084,13.580 C0.088,13.566 0.089,13.551 0.095,13.538 C0.115,13.495 0.146,13.459 0.174,13.420 C0.201,13.379 0.213,13.333 0.245,13.295 C0.262,13.276 0.284,13.269 0.301,13.252 C0.309,13.244 0.314,13.233 0.322,13.225 C0.331,13.216 0.335,13.205 0.344,13.197 L4.967,9.172 L4.967,4.973 C4.967,4.422 5.412,3.975 5.960,3.975 L10.937,3.975 L15.241,0.228 C15.615,-0.096 16.168,-0.096 16.542,0.228 L20.847,3.975 L25.823,3.975 C26.372,3.975 26.816,4.422 26.816,4.973 L26.816,9.172 L31.440,13.197 C31.449,13.205 31.452,13.217 31.462,13.225 C31.470,13.233 31.475,13.244 31.483,13.253 C31.500,13.269 31.522,13.277 31.538,13.295 C31.570,13.332 31.582,13.378 31.607,13.418 C31.636,13.458 31.668,13.495 31.688,13.538 C31.694,13.552 31.695,13.567 31.699,13.581 C31.729,13.655 31.742,13.730 31.753,13.808 C31.762,13.844 31.774,13.879 31.775,13.916 C31.775,13.928 31.782,13.938 31.782,13.951 L31.782,28.915 C31.782,30.566 30.445,31.908 28.802,31.908 ZM28.298,29.913 L15.988,18.957 C15.955,18.929 15.827,18.929 15.783,18.967 L3.485,29.913 L28.298,29.913 ZM1.906,28.652 L9.030,22.312 L1.906,16.073 L1.906,28.652 ZM2.508,13.953 L4.967,16.106 L4.967,11.813 L2.508,13.953 ZM15.892,2.302 L13.970,3.975 L17.813,3.975 L15.892,2.302 ZM20.759,5.906 C20.665,5.935 20.570,5.967 20.472,5.967 C20.356,5.967 20.240,5.947 20.129,5.906 L6.906,5.906 L6.906,17.805 L10.529,20.978 L14.478,17.463 C15.277,16.776 16.506,16.776 17.293,17.453 L21.253,20.977 L24.906,17.779 L24.906,5.906 L20.759,5.906 ZM26.816,11.813 L26.816,16.106 L29.274,13.953 L26.816,11.813 ZM29.906,16.047 L22.753,22.312 L29.906,28.678 L29.906,16.047 Z"></path>
+          </svg>
+          <p class="ml-2 italic text-sm text-white">poohphuvit@hotmail.com</p>
+        </div>
+      </div>
+      <div class="ml-8">
+        <div class="mr-2 flex">
+          <svg width="16px" height="16px" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path d="M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M8.20049 15.799C1.3025 8.90022 2.28338 5.74115 3.01055 4.72316C3.10396 4.55862 5.40647 1.11188 7.87459 3.13407C14.0008 8.17945 6.5 8 11.3894 12.6113C16.2788 17.2226 15.8214 9.99995 20.8659 16.1249C22.8882 18.594 19.4413 20.8964 19.2778 20.9888C18.2598 21.717 15.0995 22.6978 8.20049 15.799Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+          </svg>
+          <p class="italic ml-2 text-sm text-white">25 yrs</p>
+        </div>
+        <div class="mt-4 mr-2 flex">
+          <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="16px" height="16px" viewBox="0 0 31.781 31.906">
+            <path d="M28.802,31.908 L2.981,31.908 C1.338,31.908 0.001,30.566 0.001,28.915 L0.001,13.951 C0.001,13.938 0.008,13.928 0.008,13.916 C0.009,13.880 0.021,13.846 0.029,13.811 C0.040,13.731 0.054,13.655 0.084,13.580 C0.088,13.566 0.089,13.551 0.095,13.538 C0.115,13.495 0.146,13.459 0.174,13.420 C0.201,13.379 0.213,13.333 0.245,13.295 C0.262,13.276 0.284,13.269 0.301,13.252 C0.309,13.244 0.314,13.233 0.322,13.225 C0.331,13.216 0.335,13.205 0.344,13.197 L4.967,9.172 L4.967,4.973 C4.967,4.422 5.412,3.975 5.960,3.975 L10.937,3.975 L15.241,0.228 C15.615,-0.096 16.168,-0.096 16.542,0.228 L20.847,3.975 L25.823,3.975 C26.372,3.975 26.816,4.422 26.816,4.973 L26.816,9.172 L31.440,13.197 C31.449,13.205 31.452,13.217 31.462,13.225 C31.470,13.233 31.475,13.244 31.483,13.253 C31.500,13.269 31.522,13.277 31.538,13.295 C31.570,13.332 31.582,13.378 31.607,13.418 C31.636,13.458 31.668,13.495 31.688,13.538 C31.694,13.552 31.695,13.567 31.699,13.581 C31.729,13.655 31.742,13.730 31.753,13.808 C31.762,13.844 31.774,13.879 31.775,13.916 C31.775,13.928 31.782,13.938 31.782,13.951 L31.782,28.915 C31.782,30.566 30.445,31.908 28.802,31.908 ZM28.298,29.913 L15.988,18.957 C15.955,18.929 15.827,18.929 15.783,18.967 L3.485,29.913 L28.298,29.913 ZM1.906,28.652 L9.030,22.312 L1.906,16.073 L1.906,28.652 ZM2.508,13.953 L4.967,16.106 L4.967,11.813 L2.508,13.953 ZM15.892,2.302 L13.970,3.975 L17.813,3.975 L15.892,2.302 ZM20.759,5.906 C20.665,5.935 20.570,5.967 20.472,5.967 C20.356,5.967 20.240,5.947 20.129,5.906 L6.906,5.906 L6.906,17.805 L10.529,20.978 L14.478,17.463 C15.277,16.776 16.506,16.776 17.293,17.453 L21.253,20.977 L24.906,17.779 L24.906,5.906 L20.759,5.906 ZM26.816,11.813 L26.816,16.106 L29.274,13.953 L26.816,11.813 ZM29.906,16.047 L22.753,22.312 L29.906,28.678 L29.906,16.047 Z"></path>
+          </svg>
+          <p class="ml-2 italic text-sm text-white">Tokyo, Japan</p>
+        </div>
+      </div>
+    </div>
+    <hr style="border: 0.5px solid white;" class="mt-5">
+    <div class="flex">
+      <div class="mt-7">
+        <p class="text-3xl italic text-white font-bold">THAILAND</p>
+        <p class="text-xs mt-2 text-white font-extralight">Originally from THAILAND, 20 years old university student in JAPAN. I believe that continuous learning is essential for personal growth and development. </p>
+      </div>
+      <div class="mt-7 ml-10">
+        <p class="text-3xl italic text-white font-bold">FINANCE</p>
+        <p class="text-xs mt-2 text-white font-extralight">Having a Financing background. Finance and technology are becoming increasingly interconnected, and there are numerous opportunities to leverage web development skills in the realm of finance.</p>
+      </div>
+    </div>
+    <div class="w-full bg-black p-5 flex flex-grow mt-10 items-center">
+      <svg fill="#ffffff" width="52px" height="40px" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 0v6l3-3v-3h-3zm5 0v6l3-3v-3h-3z" transform="translate(0 1)"></path> </g></svg>
+      <p class="ml-5 align-center text-xs text-white font-bold">"The best error message is the one that never shows up. Code carefully, test thoroughly, and always strive for perfection."</p>
+    </div>
+  </div>
