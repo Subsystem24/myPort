@@ -204,7 +204,7 @@ color: white;
   background-color: black;
 }
 
-.bg-white:hover svg {
+.svg:hover svg {
   fill: #FFFFFF;
   transform: scale(1.2); /* Increase the scale to make the icon larger */
   transition: fill 0.3s ease-in-out, transform 0.3s ease-in-out;
