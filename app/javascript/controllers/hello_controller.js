@@ -1,10 +1,12 @@
 import { Controller } from "@hotwired/stimulus"
 
-export default class extends Controller {
-  static targets = ['sidebar'];
+window.addEventListener('scroll', function() {
+  const scrollArrow = document.getElementById('scrollArrow');
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  connect() {
-    console.log("Hello")
-    this.sidebarTarget.classList.toggle('left-[-300px]');
+  if (scrollTop > 0) {
+    scrollArrow.classList.add('hidden');
+  } else {
+    scrollArrow.classList.remove('hidden');
   }
-}
+});
